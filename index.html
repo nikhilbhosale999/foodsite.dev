@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSite</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='style.css' rel='stylesheet'>
+    <!--using FontAwesome---------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="jquery-2.1.4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--style----->
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div> -->
+
+    <section>
+        <!--navigation------------------------->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo"><span class="logol">F</span>ood<span class="logol">S</span>ite</a>
+            <!--menu-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#top-restaurants">Restaurants </a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
+                <li><a href="./Login/login.html">Login</a></li>
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+
+        </nav>
+    </section>
+
+    <!--text----------------------->
+    <div class="text-container">
+        <p>Hello Foodies,</p>
+        <p>Order Food online</p>
+        <p>It isSafe</p>
+        <button class="hire-btn">Order Now</button>
+        <button class="down-cv">About Us</button>
+    </div>
+    <!--model---------------------->
+    <img alt="model" class="model" src="3-06.jpg">
+
+
+    <div class="search-container">
+
+        <div class="search-menu">
+            <label>Location Name</label><br>
+            <input type="text">
+        </div>
+
+        <div class="search-menu">
+            <label>Restaurants Name </label><br>
+            <input type="text">
+        </div>
+        <div class="search-menu">
+            <label>Cuisine Name</label><br>
+            <input type="text">
+        </div>
+
+        <button class="btnsearch"><i class="fa fa-search"></i></button>
+    </div>
+    <section id="How-it-work">
+        <div class="services ">
+            <!--text-->
+            <div class="services-text ">
+                <p>How FoodOnline Works</p>
+                <p>Ordering food online has never been this easy</p>
+                <p>Follow the Following 3 Steps only</p>
+            </div>
+            <div class="box-container">
+                <!--1------------->
+                <div class="box-1">
+                    <span>1</span>
+                    <p class="heading"><img src="delivery.svg"></p>
+                    <p class="details">Explore restaurants that deliver to your doorstep
+                    </p>
+
+                </div>
+                <!--2------------->
+                <div class="box-2">
+                    <span>2</span>
+                    <p class="heading"><img src="menu.svg"></p>
+                    <p class="details">Browse menus and build your order in seconds</p>
+
+                </div>
+                <!--3------------->
+                <div class="box-3">
+                    <span>3</span>
+                    <p class="heading"><img src="notification.svg"></p>
+                    <p class="details">Follow the status of your order with real-time alerts
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="top-restaurants">
+        <div class="restaurants ">
+            
+            <div class="restaurants-text ">
+                <p>Top Restaurants</p>   
+            </div>
+            <div class="restaurants-container">
+                
+                <div class="restaurants-logobox-1">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                
+                <div class="restaurants-logobox-2">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+               
+                <div class="restaurants-logobox-3">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                <div class="restaurants-logobox-4">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                
+            </div>
+            <div class="restaurants-container">
+                
+                <div class="restaurants-logobox-5">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+               
+                <div class="restaurants-logobox-6">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                
+                <div class="restaurants-logobox-7">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                <div class="restaurants-logobox-8">
+                    
+                    <p class="heading"><img src="delivery.svg"></p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+
+    <section id="top-restaurants">
+        <div class="restaurants ">
+            <!--text-->
+            <div class="restaurants-text">
+                <p>Top Restaurants</p>
+            </div>
+            <div class="restaurants-container">
+
+                <div class="restaurants-logobox-1">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+                <!--2------------->
+                <div class="restaurants-logobox-2">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+                <!--3------------->
+                <div class="restaurants-logobox-3">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="restaurants-logobox-4">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="restaurants-container">
+
+                <div class="restaurants-logobox-5">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="restaurants-logobox-6">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="restaurants-logobox-7">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="restaurants-logobox-8">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> Restaurants Name<br>
+                                Ratring:&nbsp; 4.5<i class="fa fa-star"></i> </a><br>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="top-cuisine">
+        <div class="cuisine ">
+            <!--text-->
+            <div class="cuisine-text">
+                <p>Top Cuisine</p>
+            </div>
+            <div class="cuisine-container">
+                <!--1------------->
+                <div class="cuisinebox-1">
+
+                    <div class="overlay">
+                        <div class="ctext">
+                            <a href="#"> King Burger</a><br>
+                        </div>
+                    </div>
+
+                </div>
+                <!--2------------->
+                <div class="cuisinebox-2">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Italian Dish </a><br></div>
+                    </div>
+
+                </div>
+                <!--3------------->
+                <div class="cuisinebox-3">
+
+                    <div class="overlay">
+                        <div class="ctext"><a href="#"> Jumbo Burger </a></div>
+                    </div>
+
+                </div>
+                <div class="cuisinebox-4">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Pasta </a><br></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="cuisine-container">
+
+                <div class="cuisinebox-5">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Salad </a><br></div>
+                    </div>
+
+                </div>
+
+                <div class="cuisinebox-6">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Pizza </a><br></div>
+                    </div>
+
+                </div>
+
+                <div class="cuisinebox-7">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Shorama </a><br></div>
+                    </div>
+
+                </div>
+                <div class="cuisinebox-8">
+
+                    <div class="overlay">
+                        <div class="ctext"> <a href="#"> Salad </a><br></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--services-container---------------------------->
+    <div class="services " id="services">
+        <!--text-->
+        <div class="services-text ">
+            <p>Services</p>
+            <p>Qualites Requaid</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi consectetur quaerat ut,
+                voluptatum
+                nam asperiores architecto! Quibusdam ut ipsa magni quaerat illum libero, adipisci architecto accusantium
+                laborum vero tempora?
+            </p>
+        </div>
+        <div class="box-container">
+            <!--1------------->
+            <div class="box-1">
+
+                <p class="heading">100% Service Guarantee</p>
+                <p class="details"><img src="delivery.svg"></p>
+
+            </div>
+            <!--2------------->
+            <div class="box-2">
+
+                <p class="heading">100% Service Guarantee</p>
+                <p class="details"><img src="delivery.svg"></p>
+
+            </div>
+            <!--3------------->
+            <div class="box-3">
+
+                <p class="heading">100% Service Guarantee</p>
+                <p class="details"><img src="delivery.svg"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--if you have any project in your mind contact me-->
+    <div class="contact-me" id="contact-us">
+        <p>If you have any Question<br> or <br> For More Information ?</p>
+        <button>Contact Us</button>
+    </div>
+
+    <!--footer--------------->
+    <footer id="footer">
+        <div class="main-content">
+            <div class="left box">
+                <h2>Site Links</h2>
+                <div class="content">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us </a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">SignUp</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Pune, Maharashtra</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+91-90909090</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">abc@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <!-- <changeit rows="2" cols="25" required></changeit> -->
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Created By <a href="#">NikhilB</a> | </span>
+                <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+            </center>
+        </div>
+    </footer>
+
+    <!--social-attach-bar-->
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+    </script> -->
+
+</body>
+<!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.toggle').click(function () {
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+
+    
+</script>
+
+
+
+</html>
